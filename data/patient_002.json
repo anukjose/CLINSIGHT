@@ -1,0 +1,68 @@
+{
+  "patient_id": "P002",
+  "demographics": {
+    "age": 41,
+    "gender": "Male"
+  },
+  "allergies": [
+    "No known allergies"
+  ],
+  "medical_conditions": [
+    "Asthma",
+    "Allergic Rhinitis"
+  ],
+  "medications": [
+    {
+      "name": "Budesonide inhaler",
+      "dosage": "200 mcg",
+      "frequency": "Twice daily",
+      "start_date": "2024-01-12",
+      "status": "Active"
+    },
+    {
+      "name": "Cetirizine",
+      "dosage": "10 mg",
+      "frequency": "Once daily",
+      "start_date": "2024-04-03",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX003",
+      "medication": "Budesonide inhaler",
+      "dosage": "200 mcg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-02-05",
+      "duration": "90 days"
+    },
+    {
+      "prescription_id": "RX004",
+      "medication": "Cetirizine",
+      "dosage": "10 mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-02-05",
+      "duration": "30 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-05-18",
+      "symptoms": [
+        "Cough",
+        "Wheezing"
+      ],
+      "diagnosis": "Asthma exacerbation",
+      "notes": "Patient reported intermittent wheezing and nighttime cough."
+    },
+    {
+      "date": "2025-02-05",
+      "symptoms": [
+        "Sneezing",
+        "Nasal congestion"
+      ],
+      "diagnosis": "Allergic Rhinitis",
+      "notes": "Seasonal allergy symptoms were discussed and treatment was continued."
+    }
+  ]
+}

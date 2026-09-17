@@ -1,0 +1,52 @@
+{
+  "patient_id": "P005",
+  "demographics": {
+    "age": 58,
+    "gender": "Male"
+  },
+  "allergies": [
+    "No known allergies"
+  ],
+  "medical_conditions": [
+    "Gastroesophageal Reflux Disease",
+    "Obesity"
+  ],
+  "medications": [
+    {
+      "name": "Omeprazole",
+      "dosage": "20 mg",
+      "frequency": "Once daily",
+      "start_date": "2023-09-10",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX008",
+      "medication": "Omeprazole",
+      "dosage": "20 mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-02-18",
+      "duration": "60 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-04-11",
+      "symptoms": [
+        "Heartburn",
+        "Acid reflux"
+      ],
+      "diagnosis": "Gastroesophageal Reflux Disease",
+      "notes": "Patient reported frequent heartburn, especially after large meals."
+    },
+    {
+      "date": "2025-02-18",
+      "symptoms": [
+        "Heartburn"
+      ],
+      "diagnosis": "GERD follow-up",
+      "notes": "Symptoms had improved with medication and dietary changes."
+    }
+  ]
+}

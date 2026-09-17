@@ -6,3 +6,10 @@ requests
 fastapi
 uvicorn
 guardrails-ai
+langchain
+langchain-openai
+langchain-postgres
+langchain-text-splitters
+psycopg2-binary
+pgvector
+langgraph

@@ -1,0 +1,67 @@
+{
+  "patient_id": "P009",
+  "demographics": {
+    "age": 63,
+    "gender": "Female"
+  },
+  "allergies": [
+    "No known allergies"
+  ],
+  "medical_conditions": [
+    "Atrial Fibrillation",
+    "Hypertension"
+  ],
+  "medications": [
+    {
+      "name": "Apixaban",
+      "dosage": "5 mg",
+      "frequency": "Twice daily",
+      "start_date": "2023-04-08",
+      "status": "Active"
+    },
+    {
+      "name": "Metoprolol",
+      "dosage": "25 mg",
+      "frequency": "Once daily",
+      "start_date": "2023-04-08",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX014",
+      "medication": "Apixaban",
+      "dosage": "5 mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-03-04",
+      "duration": "180 days"
+    },
+    {
+      "prescription_id": "RX015",
+      "medication": "Metoprolol",
+      "dosage": "25 mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-03-04",
+      "duration": "180 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-02-08",
+      "symptoms": [
+        "Palpitations",
+        "Fatigue"
+      ],
+      "diagnosis": "Atrial Fibrillation",
+      "notes": "Patient reported intermittent palpitations and fatigue. Cardiac rhythm was reviewed."
+    },
+    {
+      "date": "2025-03-04",
+      "symptoms": [
+        "Palpitations"
+      ],
+      "diagnosis": "Atrial Fibrillation follow-up",
+      "notes": "Medication adherence and symptom control were reviewed."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "patient_id": "P001",
+  "demographics": {
+    "age": 54,
+    "gender": "Female"
+  },
+  "allergies": [
+    "Penicillin"
+  ],
+  "medical_conditions": [
+    "Type 2 Diabetes",
+    "Hypertension"
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "Twice daily",
+      "start_date": "2023-02-15",
+      "status": "Active"
+    },
+    {
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily",
+      "start_date": "2023-06-10",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX001",
+      "medication": "Metformin",
+      "dosage": "500 mg",
+      "frequency": "Twice daily",
+      "prescribed_date": "2025-01-10",
+      "duration": "90 days"
+    },
+    {
+      "prescription_id": "RX002",
+      "medication": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-01-10",
+      "duration": "90 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-03-12",
+      "symptoms": [
+        "Fatigue",
+        "Increased thirst"
+      ],
+      "diagnosis": "Type 2 Diabetes",
+      "notes": "Patient reported increased thirst and fatigue. Blood glucose levels were elevated."
+    },
+    {
+      "date": "2024-08-20",
+      "symptoms": [
+        "Headache",
+        "Dizziness"
+      ],
+      "diagnosis": "Hypertension",
+      "notes": "Patient reported occasional headaches and dizziness. Blood pressure was elevated during the visit."
+    },
+    {
+      "date": "2025-01-10",
+      "symptoms": [
+        "Fatigue",
+        "Headache"
+      ],
+      "diagnosis": "Follow-up for diabetes and hypertension",
+      "notes": "Patient attended a routine follow-up. Diabetes and blood pressure medications were continued."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "patient_id": "P004",
+  "demographics": {
+    "age": 29,
+    "gender": "Female"
+  },
+  "allergies": [
+    "No known allergies"
+  ],
+  "medical_conditions": [
+    "Migraine"
+  ],
+  "medications": [
+    {
+      "name": "Sumatriptan",
+      "dosage": "50 mg",
+      "frequency": "As needed",
+      "start_date": "2024-06-22",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX007",
+      "medication": "Sumatriptan",
+      "dosage": "50 mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-01-22",
+      "duration": "30 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-06-22",
+      "symptoms": [
+        "Severe headache",
+        "Nausea",
+        "Light sensitivity"
+      ],
+      "diagnosis": "Migraine",
+      "notes": "Patient described recurrent throbbing headaches associated with nausea and sensitivity to light."
+    },
+    {
+      "date": "2025-01-22",
+      "symptoms": [
+        "Headache",
+        "Nausea"
+      ],
+      "diagnosis": "Migraine follow-up",
+      "notes": "Patient reported fewer episodes with treatment."
+    }
+  ]
+}

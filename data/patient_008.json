@@ -1,0 +1,67 @@
+{
+  "patient_id": "P008",
+  "demographics": {
+    "age": 48,
+    "gender": "Male"
+  },
+  "allergies": [
+    "NSAIDs"
+  ],
+  "medical_conditions": [
+    "Chronic Low Back Pain",
+    "Insomnia"
+  ],
+  "medications": [
+    {
+      "name": "Acetaminophen",
+      "dosage": "500 mg",
+      "frequency": "As needed",
+      "start_date": "2024-05-16",
+      "status": "Active"
+    },
+    {
+      "name": "Melatonin",
+      "dosage": "3 mg",
+      "frequency": "At bedtime",
+      "start_date": "2024-07-02",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX012",
+      "medication": "Acetaminophen",
+      "dosage": "500 mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-02-11",
+      "duration": "30 days"
+    },
+    {
+      "prescription_id": "RX013",
+      "medication": "Melatonin",
+      "dosage": "3 mg",
+      "frequency": "At bedtime",
+      "prescribed_date": "2025-02-11",
+      "duration": "30 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-05-16",
+      "symptoms": [
+        "Lower back pain",
+        "Muscle stiffness"
+      ],
+      "diagnosis": "Chronic Low Back Pain",
+      "notes": "Patient reported persistent lower back discomfort associated with prolonged sitting."
+    },
+    {
+      "date": "2025-02-11",
+      "symptoms": [
+        "Difficulty sleeping"
+      ],
+      "diagnosis": "Insomnia",
+      "notes": "Patient reported difficulty maintaining sleep and discussed sleep hygiene."
+    }
+  ]
+}

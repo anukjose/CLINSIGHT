@@ -1,0 +1,51 @@
+{
+  "patient_id": "P010",
+  "demographics": {
+    "age": 45,
+    "gender": "Male"
+  },
+  "allergies": [
+    "No known allergies"
+  ],
+  "medical_conditions": [
+    "Hyperlipidemia",
+    "Prediabetes"
+  ],
+  "medications": [
+    {
+      "name": "Atorvastatin",
+      "dosage": "10 mg",
+      "frequency": "Once daily",
+      "start_date": "2024-01-20",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX016",
+      "medication": "Atorvastatin",
+      "dosage": "10 mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-02-20",
+      "duration": "90 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-01-20",
+      "symptoms": [
+        "Fatigue"
+      ],
+      "diagnosis": "Prediabetes",
+      "notes": "Patient was advised about lifestyle changes after elevated blood glucose measurements."
+    },
+    {
+      "date": "2025-02-20",
+      "symptoms": [
+        "Fatigue"
+      ],
+      "diagnosis": "Prediabetes and Hyperlipidemia follow-up",
+      "notes": "Lifestyle measures and medication adherence were reviewed."
+    }
+  ]
+}

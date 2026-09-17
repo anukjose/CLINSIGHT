@@ -1,0 +1,67 @@
+{
+  "patient_id": "P003",
+  "demographics": {
+    "age": 67,
+    "gender": "Female"
+  },
+  "allergies": [
+    "Sulfa drugs"
+  ],
+  "medical_conditions": [
+    "Osteoarthritis",
+    "Hyperlipidemia"
+  ],
+  "medications": [
+    {
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily",
+      "start_date": "2022-11-20",
+      "status": "Active"
+    },
+    {
+      "name": "Paracetamol",
+      "dosage": "500 mg",
+      "frequency": "As needed",
+      "start_date": "2024-02-14",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX005",
+      "medication": "Atorvastatin",
+      "dosage": "20 mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-03-01",
+      "duration": "180 days"
+    },
+    {
+      "prescription_id": "RX006",
+      "medication": "Paracetamol",
+      "dosage": "500 mg",
+      "frequency": "As needed",
+      "prescribed_date": "2025-03-01",
+      "duration": "30 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-02-14",
+      "symptoms": [
+        "Knee pain",
+        "Joint stiffness"
+      ],
+      "diagnosis": "Osteoarthritis",
+      "notes": "Patient reported chronic knee pain and morning stiffness."
+    },
+    {
+      "date": "2025-03-01",
+      "symptoms": [
+        "Knee pain"
+      ],
+      "diagnosis": "Osteoarthritis follow-up",
+      "notes": "Pain management and physical activity were reviewed."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "patient_id": "P007",
+  "demographics": {
+    "age": 72,
+    "gender": "Female"
+  },
+  "allergies": [
+    "No known allergies"
+  ],
+  "medical_conditions": [
+    "Hypothyroidism",
+    "Hypertension"
+  ],
+  "medications": [
+    {
+      "name": "Levothyroxine",
+      "dosage": "75 mcg",
+      "frequency": "Once daily",
+      "start_date": "2021-08-15",
+      "status": "Active"
+    },
+    {
+      "name": "Amlodipine",
+      "dosage": "5 mg",
+      "frequency": "Once daily",
+      "start_date": "2022-10-10",
+      "status": "Active"
+    }
+  ],
+  "prescriptions": [
+    {
+      "prescription_id": "RX010",
+      "medication": "Levothyroxine",
+      "dosage": "75 mcg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-01-14",
+      "duration": "180 days"
+    },
+    {
+      "prescription_id": "RX011",
+      "medication": "Amlodipine",
+      "dosage": "5 mg",
+      "frequency": "Once daily",
+      "prescribed_date": "2025-01-14",
+      "duration": "180 days"
+    }
+  ],
+  "clinical_history": [
+    {
+      "date": "2024-01-14",
+      "symptoms": [
+        "Fatigue",
+        "Cold intolerance"
+      ],
+      "diagnosis": "Hypothyroidism",
+      "notes": "Patient reported persistent fatigue and feeling unusually cold."
+    },
+    {
+      "date": "2025-01-14",
+      "symptoms": [
+        "Dizziness"
+      ],
+      "diagnosis": "Hypertension follow-up",
+      "notes": "Blood pressure management was reviewed and medication was continued."
+    }
+  ]
+}
